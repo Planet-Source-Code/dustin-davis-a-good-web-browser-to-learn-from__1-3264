@@ -1,0 +1,96 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Program Files\Microsoft Visual Studio\VB98\PROJECTS\Browser\Package (2)
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+C:\Program Files\Microsoft Visual Studio\VB98\PROJECTS\Browser\PwrBrowser.doc=
+
+[Package|Standard Setup Package 1|Files Removed]
+c:\windows\system\msvbvm60.dll=
+c:\windows\system\oleaut32.dll=
+c:\windows\system\olepro32.dll=
+c:\windows\system\asycfilt.dll=
+c:\windows\system\stdole2.tlb=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Program Files\Microsoft Visual Studio\VB98\PROJECTS\Browser\PwrBrowser.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=No
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=No
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=No
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=No
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\PROJECTS\Browser\PwrBrowser.doc=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Program Files\Microsoft Visual Studio\VB98\PROJECTS\Browser\PwrBrowser.exe=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program Files\Microsoft Visual Studio\VB98\PROJECTS\Browser\PwrBrowser.doc=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\PROJECTS\Browser\PwrBrowser.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\PROJECTS\Browser\PwrBrowser.doc=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Power Browser
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Power Browser
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Power Browser]
+Icon1=PwrBrowser.exe
+Title1=Power Browser
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=PwrBrowser.doc
+Title2=Power Browser Readme
+StartIn2=$(AppPath)
+Key2=Icon3
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\Program Files\Microsoft Visual Studio\VB98\PROJECTS\Browser\Package (2)
+ProjectFolder=C:\Program Files\Microsoft Visual Studio\VB98\PROJECTS\Browser
+ServerSideCab=
+File1=C:\Program Files\Microsoft Visual Studio\VB98\PROJECTS\Browser\Package (2)\setup.exe
+File2=C:\Program Files\Microsoft Visual Studio\VB98\PROJECTS\Browser\Package (2)\Setup.Lst
+File3=C:\Program Files\Microsoft Visual Studio\VB98\PROJECTS\Browser\Package (2)\PwrBrowser.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
